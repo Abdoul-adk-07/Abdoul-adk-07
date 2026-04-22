@@ -16,148 +16,110 @@ Here are some ideas to get you started:
 -->
 
 
-<style>
-  .tag { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: 20px; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); color: var(--color-text-secondary); margin: 3px 2px; }
-  .section-title { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 10px; }
-  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 12px; }
-  .badge { display: inline-block; font-size: 11px; padding: 2px 9px; border-radius: 20px; font-weight: 500; margin-right: 6px; }
-  .badge-done { background: #EAF3DE; color: #3B6D11; }
-  .badge-wip { background: #FAEEDA; color: #854F0B; }
-  .badge-concept { background: #E6F1FB; color: #185FA5; }
-  @media (prefers-color-scheme: dark) {
-    .badge-done { background: #27500A; color: #C0DD97; }
-    .badge-wip { background: #633806; color: #FAC775; }
-    .badge-concept { background: #0C447C; color: #B5D4F4; }
-  }
-  .project-row { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
-  .project-row:last-child { border-bottom: none; padding-bottom: 0; }
-  .dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
-  .dot-green { background: #639922; }
-  .dot-amber { background: #BA7517; }
-  .dot-blue { background: #378ADD; }
-  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-  @media (max-width: 480px) { .grid2 { grid-template-columns: 1fr; } }
-</style>
+<div align="center">
 
-<div style="padding: 1rem 0;">
+# 👋 Salut, moi c'est Abdoul !
 
-  <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 1.5rem;">
-    <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--color-background-info); display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 500; color: var(--color-text-info); flex-shrink: 0;">D</div>
-    <div>
-      <p style="font-size: 20px; font-weight: 500; margin: 0; color: var(--color-text-primary);">Développeur Web & Applicatif</p>
-      <p style="font-size: 14px; color: var(--color-text-secondary); margin: 4px 0 0;">Full Stack · E-commerce · Conception fonctionnelle</p>
-    </div>
-  </div>
+### 💻 Développeur Web & Applicatif · Full Stack · E-commerce · Conception fonctionnelle
 
-  <div class="card" style="border-left: 3px solid #378ADD; border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0;">
-    <p style="font-size: 14px; color: var(--color-text-primary); margin: 0; line-height: 1.7;">
-      Développeur web polyvalent, je conçois et développe des solutions numériques orientées gestion, e-commerce et expérience utilisateur. Mon profil combine technique, logique produit, sens du design et capacité à transformer une idée métier en solution concrète et évolutive.
-    </p>
-  </div>
+*Polyvalent et orienté solution — je transforme des idées métier en interfaces claires, fonctionnelles et évolutives.*
 
-  <div class="grid2">
-    <div>
-      <p class="section-title">Back-end</p>
-      <div>
-        <span class="tag">Python</span><span class="tag">PHP</span><span class="tag">SQL / MySQL</span>
-        <span class="tag">Django</span><span class="tag">Laravel</span><span class="tag">Symfony</span>
-        <span class="tag">Gestion des rôles</span><span class="tag">Workflows métier</span>
-      </div>
-    </div>
-    <div>
-      <p class="section-title">Front-end & UI</p>
-      <div>
-        <span class="tag">HTML / CSS</span><span class="tag">JavaScript</span>
-        <span class="tag">Responsive design</span><span class="tag">UX / UI</span>
-        <span class="tag">Shopify Liquid</span><span class="tag">Dashboards</span>
-      </div>
-    </div>
-  </div>
+</div>
 
-  <div style="margin-top: 1rem;" class="grid2">
-    <div>
-      <p class="section-title">Outils & DevOps</p>
-      <div>
-        <span class="tag">Git / GitHub</span><span class="tag">Docker</span>
-        <span class="tag">VS Code</span><span class="tag">Virtualenv</span>
-      </div>
-    </div>
-    <div>
-      <p class="section-title">Design & contenu</p>
-      <div>
-        <span class="tag">Photoshop</span><span class="tag">Premiere Pro</span>
-        <span class="tag">Rédaction web</span><span class="tag">Copywriting</span>
-      </div>
-    </div>
-  </div>
+---
 
-  <div style="margin-top: 1.5rem;">
-    <p class="section-title">Projets</p>
-    <div class="card" style="padding: 0.75rem 1.25rem;">
-      <div class="project-row">
-        <div class="dot dot-green"></div>
-        <div>
-          <span class="badge badge-done">Réalisé</span>
-          <span style="font-size: 14px; font-weight: 500; color: var(--color-text-primary);">Boutique Shopify — Vêtements personnalisés avec QR code</span>
-          <p style="font-size: 13px; color: var(--color-text-secondary); margin: 4px 0 0;">E-commerce, Liquid, UX, branding, options produit dynamiques</p>
-        </div>
-      </div>
-      <div class="project-row">
-        <div class="dot dot-amber"></div>
-        <div>
-          <span class="badge badge-wip">En cours</span>
-          <span style="font-size: 14px; font-weight: 500; color: var(--color-text-primary);">Plateforme de tontine & épargne en ligne</span>
-          <p style="font-size: 13px; color: var(--color-text-secondary); margin: 4px 0 0;">Architecture applicative, gestion des rôles, paiements, KYC, dashboard</p>
-        </div>
-      </div>
-      <div class="project-row">
-        <div class="dot dot-green"></div>
-        <div>
-          <span class="badge badge-done">Réalisé</span>
-          <span style="font-size: 14px; font-weight: 500; color: var(--color-text-primary);">Feature Shopify — Personnalisation produit & tarification dynamique</span>
-          <p style="font-size: 13px; color: var(--color-text-secondary); margin: 4px 0 0;">Liquid, logique prix, UX panier</p>
-        </div>
-      </div>
-      <div class="project-row">
-        <div class="dot dot-blue"></div>
-        <div>
-          <span class="badge badge-concept">Conception</span>
-          <span style="font-size: 14px; font-weight: 500; color: var(--color-text-primary);">Plateforme de réservation de consultations dentaires</span>
-          <p style="font-size: 13px; color: var(--color-text-secondary); margin: 4px 0 0;">Modélisation fonctionnelle, parcours utilisateur, paiement en ligne</p>
-        </div>
-      </div>
-      <div class="project-row">
-        <div class="dot dot-green"></div>
-        <div>
-          <span class="badge badge-done">Réalisé</span>
-          <span style="font-size: 14px; font-weight: 500; color: var(--color-text-primary);">Système embarqué Arduino — Véhicule miniature autonome</span>
-          <p style="font-size: 13px; color: var(--color-text-secondary); margin: 4px 0 0;">Capteurs, logique embarquée, résolution de contraintes techniques</p>
-        </div>
-      </div>
-      <div class="project-row">
-        <div class="dot dot-amber"></div>
-        <div>
-          <span class="badge badge-wip">En cours</span>
-          <span style="font-size: 14px; font-weight: 500; color: var(--color-text-primary);">Application de gestion de notes — Établissement secondaire</span>
-          <p style="font-size: 13px; color: var(--color-text-secondary); margin: 4px 0 0;">Gestion utilisateurs, saisie de résultats, suivi académique</p>
-        </div>
-      </div>
-    </div>
-  </div>
+## 🙋 Qui suis-je ?
 
-  <div style="margin-top: 1rem;">
-    <p class="section-title">Ce que je fais bien</p>
-    <div>
-      <span class="tag">Plateformes de gestion</span>
-      <span class="tag">Vision produit</span>
-      <span class="tag">Architecture applicative</span>
-      <span class="tag">E-commerce Shopify</span>
-      <span class="tag">Interfaces modernes</span>
-      <span class="tag">Analyse des besoins</span>
-      <span class="tag">Scripts Python</span>
-      <span class="tag">Automatisation</span>
-      <span class="tag">Rédaction technique</span>
-    </div>
-  </div>
+- 🔨 Je développe des **applications web**, des **plateformes de gestion** et des **boutiques e-commerce**
+- 🎨 J'ai un fort sens du **design d'interface** et de l'**expérience utilisateur**
+- 🧠 J'aime concevoir des architectures applicatives solides avant de coder
+- 📐 Je traduis les besoins métier en solutions techniques concrètes et évolutives
+- ⚡ J'automatise ce qui peut l'être.
 
+---
+
+## 🛠️ Stack technique
+
+| Domaine | Technologies |
+|---|---|
+| 🔙 **Back-end** | Python, PHP, Django, Laravel, Symfony |
+| 🖥️ **Front-end** | HTML, CSS, JavaScript, UX/UI, Responsive Design |
+| 🛍️ **E-commerce** | Shopify, Liquid, Personnalisation de thèmes |
+| 🗄️ **Bases de données** | MySQL, SQL, Modélisation de données |
+| ⚙️ **Outils & DevOps** | Git, GitHub, Docker, VS Code, Virtualenv |
+| 🎨 **Design & Contenu** | Photoshop, Premiere Pro, Rédaction web |
+
+---
+
+## 🚀 En ce moment
+
+- 🔄 **Plateforme de tontine & épargne en ligne** — gestion des rôles, paiements, KYC, dashboard
+- 🔄 **Application de gestion de notes** pour établissement secondaire
+
+---
+
+## 📁 Projets notables
+
+| Statut | Projet | Stack | Type |
+|---|---|---|---|
+| ✅ Réalisé | Boutique Shopify | Shopify, Liquid | E-commerce |
+| ✅ Réalisé | Feature Shopify — personnalisation produit & tarification dynamique | Liquid, JS | Front-end |
+| ✅ Réalisé | Système embarqué Arduino — véhicule miniature autonome | Arduino, C | Embarqué |
+| 🔄 En cours | Plateforme de tontine & épargne en ligne | PHP, MySQL, JS | Application web |
+| 🔄 En cours | Application de gestion de notes scolaires | Python / PHP | Gestion |
+| 🧩 Conception | Plateforme de réservation de consultations dentaires | Web | Conception fonctionnelle |
+
+---
+
+---
+
+## 📱 Au-delà du code
+
+Je ne m'arrête pas au développement. J'ai aussi développé des compétences en **création de contenu digital** et en **stratégie de présence en ligne** :
+
+| Domaine | Ce que je fais |
+|---|---|
+| 📣 **Community Management** | Animation de communautés, engagement, modération |
+| 📈 **Création d'audience** | Stratégie de croissance, identité de marque en ligne |
+| 🗂️ **Gestion de contenu** | Planification éditoriale, calendrier de publication |
+| 🎬 **Concepts vidéo viraux** | Idéation, scripting et réalisation de contenus courts à fort impact |
+
+> 💬 *Cette double casquette technique + créative me permet de concevoir des produits digitaux cohérents de bout en bout — du code jusqu'à la communication.*
+
+## 💡 Ce que j'aime faire
+
+```
+🏗️ Architecture applicative      🎯 Vision produit
+🖌️ Interfaces modernes           🤖 Automatisation Python
+📝 Rédaction technique           🔍 Analyse des besoins
+🛒 E-commerce Shopify            📊 Dashboards & gestion
+
+```
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Abdoul-adk-07&show_icons=true&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 📫 Me contacter
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](***)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](***)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](***)
+
+</div>
+
+---
+
+<div align="center">
+  <i>Ouvert aux collaborations, missions freelance et projets ambitieux 🤝</i>
 </div>
